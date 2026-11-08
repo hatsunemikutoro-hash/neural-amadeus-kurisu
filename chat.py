@@ -16,9 +16,8 @@ running = True
 async def voice_loop(amadeus, world):
     server = ServerManager(SERVER_EXE, MODEL_GGUF)
     server.start()
-    if not wait_server():
+    if not await asyncio.to_thread(wait_server):
         print("[voz] servidor não subiu — corpo segue vivo, só a voz calou")
-        server.stop()
         return
     try:
         while running:
@@ -33,9 +32,9 @@ async def voice_loop(amadeus, world):
 
 async def debug_loop(amadeus):
     while True:
-        s = amadeus.get_status()
-        print(f"[debug] virtual={s['world']['virtual_time']} last_world={s['scheduler']['last_ticks']['world']}")
-        await asyncio.sleep(60)
+        s = amadeus.get_status()["scheduler"]["last_ticks"]
+        print(f"[debug] world={s['world']} energy={s['energy']} activity={s['activity']} plan={s['plan']} goal={s['goal']}")
+        await asyncio.sleep(5 * 60)
 
 
 async def main():
