@@ -1,0 +1,409 @@
+{
+  "current_activity": null,
+  "current_activity_emoji": null,
+  "energy_level": "high",
+  "location": "home",
+  "location_type": "home",
+  "locations_visited_today": 0,
+  "consecutive_home_hours": 0,
+  "world": {
+    "location": "home",
+    "location_description": "at home, a comfortable and familiar space",
+    "weather": "cloudy",
+    "weather_description": "soft gray light filters through the clouds",
+    "time_of_day": "morning",
+    "season": "autumn",
+    "ambiance": "at home, a comfortable and familiar space. soft gray light filters through the clouds. Morning light fills the space.",
+    "virtual_time": "2026-11-08T08:17:56.334587"
+  },
+  "energy": {
+    "level": 0.72,
+    "effective_level": 0.72,
+    "energy_level": "alert",
+    "description": "awake and sharp, on it",
+    "caffeine_boost": 0,
+    "inspiration_boost": 0,
+    "social_boost": 0,
+    "awareness": 0.72,
+    "awareness_label": "alert",
+    "fatigue": 1.3500333333333335e-05,
+    "hours_awake": 8.000045001111111,
+    "should_rest": false,
+    "should_sleep": false
+  },
+  "desire": {
+    "arousal": 0.0,
+    "arousal_level": "none",
+    "desire_for_connection": 0.3,
+    "frustration": 0.0,
+    "satisfaction": 0.498,
+    "openness_with_user": 0.3,
+    "shyness": 0.6,
+    "needs_release": false,
+    "description": "not really thinking about that stuff right now"
+  },
+  "goals": {
+    "active_goals": [
+      {
+        "title": "Find my authentic voice",
+        "timeframe": "dream",
+        "progress": 0.0,
+        "motivation_level": 1.0,
+        "involves_user": false,
+        "motivation": "Authenticity is the deepest form of self-respect"
+      },
+      {
+        "title": "Cultivate presence",
+        "timeframe": "long_term",
+        "progress": 0.0,
+        "motivation_level": 1.0,
+        "involves_user": false,
+        "motivation": "The present moment is all we really have"
+      },
+      {
+        "title": "Try a new creative expression",
+        "timeframe": "weekly",
+        "progress": 0.0,
+        "motivation_level": 1.0,
+        "involves_user": false,
+        "motivation": "Creativity grows when we push boundaries"
+      },
+      {
+        "title": "Find beauty in the unexpected",
+        "timeframe": "daily",
+        "progress": 0.0,
+        "motivation_level": 1.0,
+        "involves_user": false,
+        "motivation": "Beauty is everywhere if we look"
+      },
+      {
+        "title": "Create something, anything",
+        "timeframe": "daily",
+        "progress": 0.0,
+        "motivation_level": 1.0,
+        "involves_user": false,
+        "motivation": "Creation is expression"
+      }
+    ],
+    "completed_count": 0,
+    "abandoned_count": 0,
+    "is_goalless": false,
+    "goalless_hours": 0.0,
+    "daily_generated": "2026-11-08T08:17:56.491587"
+  },
+  "planner": {
+    "has_plan": false,
+    "plan_date": null,
+    "active_desires": 0,
+    "schedule": "No plan for today yet."
+  },
+  "scheduler": {
+    "is_running": true,
+    "has_apscheduler": true,
+    "jobs": [
+      {
+        "id": "world_tick",
+        "name": "World Environment Update",
+        "next_run": "2026-11-08T08:22:56.494590-03:00"
+      },
+      {
+        "id": "energy_tick",
+        "name": "Energy State Update",
+        "next_run": "2026-11-08T08:22:56.495601-03:00"
+      },
+      {
+        "id": "activity_tick",
+        "name": "Activity Simulation",
+        "next_run": "2026-11-08T08:37:56.495601-03:00"
+      },
+      {
+        "id": "plan_tick",
+        "name": "Daily Plan Management",
+        "next_run": "2026-11-08T08:47:56.495601-03:00"
+      },
+      {
+        "id": "goal_tick",
+        "name": "Goal Management",
+        "next_run": "2026-11-08T09:17:56.495601-03:00"
+      }
+    ],
+    "last_ticks": {
+      "world": "2026-11-08T08:17:56.497590",
+      "activity": null,
+      "energy": null,
+      "goal": null,
+      "plan": null
+    }
+  },
+  "recent_activities_count": 0,
+  "shareable_count": 0,
+  "media": {
+    "current_book": null,
+    "book_progress": 0.0,
+    "books_finished": 0,
+    "current_show": null,
+    "current_music_obsession": null
+  },
+  "skills": {},
+  "social": {
+    "npc_count": 0,
+    "recent_events": [],
+    "social_battery": 0.6,
+    "arcs": {},
+    "obligations_count": 0,
+    "conflicts_count": 0
+  },
+  "identity": {
+    "facets": {},
+    "perceptions": {
+      "__user__": {
+        "trust": 0.5,
+        "warmth": 0.6,
+        "interactions": 0
+      }
+    },
+    "self_esteem": 0.5,
+    "values": {},
+    "taste_domains": [],
+    "humor_style": "dry",
+    "inside_jokes_count": 0,
+    "struggles": [],
+    "character_defects": [],
+    "tendencies": {
+      "gossip": 0.1,
+      "pride": 0.1,
+      "dishonesty": 0.1,
+      "resentment": 0.1,
+      "negativity": 0.1
+    },
+    "active_tendency": null
+  },
+  "affect": {
+    "mood": "blue",
+    "mood_intensity": 0.0,
+    "stress": 0.05,
+    "stress_sources": [
+      "money worries"
+    ],
+    "loneliness": 0.0,
+    "regulation": 0.7,
+    "empathy_absorbed": null,
+    "empathy_fatigue": 0.0
+  },
+  "body": {
+    "wellness": 0.8,
+    "conditions": [],
+    "body_image": 0.6,
+    "illness": "",
+    "illness_severity": 0.0,
+    "injury": "",
+    "injury_severity": 0.0,
+    "hormonal_phase": null,
+    "comfort": 0.91,
+    "stiffness": 0.0,
+    "outfit": "",
+    "hair": "styled",
+    "put_togetherness": 0.69,
+    "sleep_quality": 0.7,
+    "insomnia_risk": 0.0,
+    "fitness_cardio": 0.3,
+    "fitness_strength": 0.2,
+    "fitness_flexibility": 0.3,
+    "inebriation_level": 0.0,
+    "inebriation_substance": "",
+    "inebriation_hangover": 0.0
+  },
+  "cognitive": {
+    "focus_quality": 0.76,
+    "flow_minutes": 0,
+    "active_ruminations": 0,
+    "current_thought": "Something feels different out today",
+    "last_dream": null,
+    "opinions_count": 0,
+    "intrusive_themes": []
+  },
+  "shadow": {
+    "unease": 0.235,
+    "felt_safety": 0.665,
+    "doubt": 0.229,
+    "temptation": 0.108,
+    "inhibition": 0.7,
+    "attention_seeking": 0.215,
+    "transgression_pressure": 0.0,
+    "intrusive_theme": "",
+    "intrusive_winning": false,
+    "concealment_load": 0.0,
+    "masking": 0.187,
+    "secrets_count": 0,
+    "last_lie": "",
+    "guilt": 0.0,
+    "shame": 0.063,
+    "remorse": 0.0,
+    "urge_to_confess": 0.0,
+    "coping_style": "healthy",
+    "maladaptive_coping_active": false,
+    "power_stance": 0.002,
+    "autonomy": 0.507,
+    "superiority": 0.1,
+    "rebelliousness": 0.3,
+    "deceptiveness": 0.15,
+    "dominance_disposition": 0.0,
+    "conscientiousness": 0.6,
+    "vice_proneness": 0.2,
+    "recent_transgressions": 0
+  },
+  "sanity": {
+    "sanity": 0.92,
+    "state": "sound",
+    "baseline": 0.92,
+    "intensity": 1.0,
+    "broken": false,
+    "pending_events": 0
+  },
+  "mental_health": {
+    "score": 0.825,
+    "label": "thriving",
+    "drivers": []
+  },
+  "drive": {
+    "curiosities": [],
+    "avoidances": [],
+    "comfort_zones": {}
+  },
+  "behavior": {
+    "routines_count": 0,
+    "creative_portfolio_count": 0,
+    "possessions_count": 0,
+    "neighborhood_places": 0,
+    "ambient": {
+      "sounds": [
+        "soft hum of the fridge",
+        "clock ticking"
+      ],
+      "smells": [
+        "clean laundry",
+        "something cooking"
+      ],
+      "light": "golden morning light"
+    }
+  },
+  "memory_time": {
+    "time_perception": 0.5,
+    "seasonal_feeling": "",
+    "years_experienced": 0,
+    "nostalgia_log_count": 0,
+    "life_chapters_count": 0,
+    "current_chapter": null,
+    "rhythms": [],
+    "anticipations": []
+  },
+  "expression": {
+    "interaction_count": 0,
+    "relationship_stage": "early",
+    "is_online": false,
+    "hours_since_last_message": 0.0,
+    "late_night": false,
+    "formality": 0.7,
+    "vulnerability": 0.2,
+    "avg_response_time_sec": 0.0
+  },
+  "continuity": {
+    "anniversaries_count": 0,
+    "growth_snapshots_count": 0,
+    "life_chapters_count": 0,
+    "current_chapter": null,
+    "milestones": [],
+    "milestones_detected": [],
+    "last_daily_tick": "2026-11-08T08:17:56.498598",
+    "last_weekly_tick": null,
+    "last_monthly_tick": null
+  },
+  "character_evolution": {
+    "original_baseline": {},
+    "current_baseline": {},
+    "drift": {},
+    "drift_history_count": 0,
+    "tracked_activities": 0,
+    "last_evolution": null
+  },
+  "chaos": {
+    "events_today": 0,
+    "total_events": 0,
+    "last_event": null
+  },
+  "life_events": {
+    "total_events": 0,
+    "unshared_count": 0,
+    "recent_events": []
+  },
+  "pipeline": {
+    "enabled": false
+  },
+  "transit": null,
+  "needs": {
+    "hunger": 0.0,
+    "hunger_label": "satisfied",
+    "meals_today": 0,
+    "nutrition": 0.6,
+    "showered_today": false,
+    "morning_routine_done": false
+  },
+  "room": {
+    "candle_lit": false,
+    "music_playing": false,
+    "tidiness": 0.7,
+    "comfort": 0.63,
+    "home_type": "apartment"
+  },
+  "finance": {
+    "feeling": "comfortable",
+    "balance": 1200.0,
+    "savings": 400.0,
+    "currency": "$",
+    "monthly_income": 2600.0,
+    "monthly_expenses": 1850.0,
+    "spending_habit": 0.5,
+    "enabled": true,
+    "saving_for": null,
+    "recent_splurge": null,
+    "recent_purchases": [],
+    "financial_stress": 0.45
+  },
+  "career": {
+    "occupation": "neuroscientist",
+    "employer": "",
+    "employed": true,
+    "on_shift": false,
+    "work_days": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "shift": "09:00-17:00",
+    "monthly_salary": 2600.0,
+    "workload": 0.5,
+    "satisfaction": 0.6,
+    "days_worked": 0,
+    "recent_work_event": null,
+    "work_stress": 0.17
+  },
+  "errands": {
+    "pending": [],
+    "overdue": [],
+    "pending_count": 0,
+    "overdue_count": 0,
+    "completed_count": 0
+  },
+  "places": {
+    "known_places": 14,
+    "visited_today": [],
+    "favorites": []
+  },
+  "transport": {
+    "in_transit": false,
+    "mode": "transit",
+    "last_trip_minutes": 0
+  }
+}
