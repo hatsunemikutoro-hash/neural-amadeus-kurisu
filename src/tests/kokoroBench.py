@@ -2,7 +2,6 @@ import time
 import sherpa_onnx
 import numpy as np
 
-# Pasta que você extraiu do tar.bz2
 PASTA = "S:\\Vscode\\amadeus-mk-II\\kokoro-int8-multi-lang-v1_1" 
 
 config = sherpa_onnx.OfflineTtsConfig(

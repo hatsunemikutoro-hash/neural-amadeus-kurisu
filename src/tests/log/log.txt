@@ -1,7 +1,7 @@
 {
-  "current_activity": null,
-  "current_activity_emoji": null,
-  "energy_level": "high",
+  "current_activity": "Tending to plants",
+  "current_activity_emoji": "✨",
+  "energy_level": "medium",
   "location": "home",
   "location_type": "home",
   "locations_visited_today": 0,
@@ -14,20 +14,20 @@
     "time_of_day": "morning",
     "season": "autumn",
     "ambiance": "at home, a comfortable and familiar space. soft gray light filters through the clouds. Morning light fills the space.",
-    "virtual_time": "2026-11-08T08:17:56.334587"
+    "virtual_time": "2026-11-08T09:02:33.612554"
   },
   "energy": {
-    "level": 0.72,
-    "effective_level": 0.72,
+    "level": 0.4552999999999999,
+    "effective_level": 0.7523,
     "energy_level": "alert",
     "description": "awake and sharp, on it",
     "caffeine_boost": 0,
     "inspiration_boost": 0,
-    "social_boost": 0,
-    "awareness": 0.72,
+    "social_boost": 0.297,
+    "awareness": 0.7,
     "awareness_label": "alert",
-    "fatigue": 1.3500333333333335e-05,
-    "hours_awake": 8.000045001111111,
+    "fatigue": 0.13083094383333332,
+    "hours_awake": 8.43610314611111,
     "should_rest": false,
     "should_sleep": false
   },
@@ -36,7 +36,7 @@
     "arousal_level": "none",
     "desire_for_connection": 0.3,
     "frustration": 0.0,
-    "satisfaction": 0.498,
+    "satisfaction": 0.494,
     "openness_with_user": 0.3,
     "shyness": 0.6,
     "needs_release": false,
@@ -49,15 +49,15 @@
         "timeframe": "dream",
         "progress": 0.0,
         "motivation_level": 1.0,
-        "involves_user": false,
+        "involves_user": 0,
         "motivation": "Authenticity is the deepest form of self-respect"
       },
       {
         "title": "Cultivate presence",
         "timeframe": "long_term",
-        "progress": 0.0,
+        "progress": 0.05,
         "motivation_level": 1.0,
-        "involves_user": false,
+        "involves_user": 0,
         "motivation": "The present moment is all we really have"
       },
       {
@@ -65,7 +65,7 @@
         "timeframe": "weekly",
         "progress": 0.0,
         "motivation_level": 1.0,
-        "involves_user": false,
+        "involves_user": 0,
         "motivation": "Creativity grows when we push boundaries"
       },
       {
@@ -73,7 +73,7 @@
         "timeframe": "daily",
         "progress": 0.0,
         "motivation_level": 1.0,
-        "involves_user": false,
+        "involves_user": 0,
         "motivation": "Beauty is everywhere if we look"
       },
       {
@@ -81,7 +81,23 @@
         "timeframe": "daily",
         "progress": 0.0,
         "motivation_level": 1.0,
-        "involves_user": false,
+        "involves_user": 0,
+        "motivation": "Creation is expression"
+      },
+      {
+        "title": "Learn something completely new",
+        "timeframe": "weekly",
+        "progress": 0.0,
+        "motivation_level": 1.0,
+        "involves_user": 0,
+        "motivation": "Curiosity is what makes life rich"
+      },
+      {
+        "title": "Create something, anything",
+        "timeframe": "daily",
+        "progress": 0.0,
+        "motivation_level": 1.0,
+        "involves_user": 0,
         "motivation": "Creation is expression"
       }
     ],
@@ -89,54 +105,54 @@
     "abandoned_count": 0,
     "is_goalless": false,
     "goalless_hours": 0.0,
-    "daily_generated": "2026-11-08T08:17:56.491587"
+    "daily_generated": null
   },
   "planner": {
-    "has_plan": false,
-    "plan_date": null,
-    "active_desires": 0,
-    "schedule": "No plan for today yet."
+    "has_plan": true,
+    "plan_date": "2026-11-08",
+    "active_desires": 4,
+    "schedule": "  07:00 - waking up [start of the day] (planned)\n  08:00 - having breakfast [morning meal] (done) (actually: reading)\n  09:00 - tending to plants [goal: Cultivate presence] (planned)\n  10:00 - journaling [want: Journal about how I've been feeling] (planned)\n  11:00 - sketching ideas [goal: Try a new creative expression] (planned)\n  12:00 - having lunch [midday meal] (planned)\n  13:00 - listening to music [routine] (planned)\n  14:00 - puzzles and games [routine] (planned)\n  15:00 - people watching [goal: Find beauty in the unexpected] (planned)\n  16:00 - making tea [goal: Cultivate presence] (planned)\n  17:00 - daydreaming [goal: Find beauty in the unexpected] (planned)\n  18:00 - reading [routine] (planned)\n  19:00 - having dinner [evening meal] (planned)\n  20:00 - creating a playlist [routine] (planned)\n  21:00 - meditating [goal: Cultivate presence] (planned)\n  22:00 - getting ready for bed [winding down] (planned)"
   },
   "scheduler": {
     "is_running": true,
     "has_apscheduler": true,
     "jobs": [
       {
-        "id": "world_tick",
-        "name": "World Environment Update",
-        "next_run": "2026-11-08T08:22:56.494590-03:00"
-      },
-      {
         "id": "energy_tick",
         "name": "Energy State Update",
-        "next_run": "2026-11-08T08:22:56.495601-03:00"
+        "next_run": "2026-11-08T09:07:33.637558-03:00"
+      },
+      {
+        "id": "world_tick",
+        "name": "World Environment Update",
+        "next_run": "2026-11-08T09:07:33.637558-03:00"
       },
       {
         "id": "activity_tick",
         "name": "Activity Simulation",
-        "next_run": "2026-11-08T08:37:56.495601-03:00"
+        "next_run": "2026-11-08T09:22:33.637558-03:00"
       },
       {
         "id": "plan_tick",
         "name": "Daily Plan Management",
-        "next_run": "2026-11-08T08:47:56.495601-03:00"
+        "next_run": "2026-11-08T09:32:33.638560-03:00"
       },
       {
         "id": "goal_tick",
         "name": "Goal Management",
-        "next_run": "2026-11-08T09:17:56.495601-03:00"
+        "next_run": "2026-11-08T10:02:33.637558-03:00"
       }
     ],
     "last_ticks": {
-      "world": "2026-11-08T08:17:56.497590",
+      "world": "2026-11-08T09:02:33.641560",
       "activity": null,
-      "energy": null,
+      "energy": "2026-11-08T09:02:33.641560",
       "goal": null,
-      "plan": null
+      "plan": "2026-11-08T09:02:33.641560"
     }
   },
-  "recent_activities_count": 0,
-  "shareable_count": 0,
+  "recent_activities_count": 2,
+  "shareable_count": 1,
   "media": {
     "current_book": null,
     "book_progress": 0.0,
@@ -144,7 +160,9 @@
     "current_show": null,
     "current_music_obsession": null
   },
-  "skills": {},
+  "skills": {
+    "knowledge": 0.005
+  },
   "social": {
     "npc_count": 0,
     "recent_events": [],
@@ -154,12 +172,15 @@
     "conflicts_count": 0
   },
   "identity": {
-    "facets": {},
+    "facets": {
+      "bookworm": 0.03,
+      "intellectual": 0.03
+    },
     "perceptions": {
       "__user__": {
-        "trust": 0.5,
-        "warmth": 0.6,
-        "interactions": 0
+        "trust": 0.52,
+        "warmth": 0.61,
+        "interactions": 7
       }
     },
     "self_esteem": 0.5,
@@ -170,18 +191,18 @@
     "struggles": [],
     "character_defects": [],
     "tendencies": {
-      "gossip": 0.1,
-      "pride": 0.1,
-      "dishonesty": 0.1,
-      "resentment": 0.1,
-      "negativity": 0.1
+      "gossip": 0.09,
+      "pride": 0.09,
+      "dishonesty": 0.09,
+      "resentment": 0.09,
+      "negativity": 0.09
     },
     "active_tendency": null
   },
   "affect": {
-    "mood": "blue",
-    "mood_intensity": 0.0,
-    "stress": 0.05,
+    "mood": "content",
+    "mood_intensity": 0.12,
+    "stress": 0.01,
     "stress_sources": [
       "money worries"
     ],
@@ -191,16 +212,18 @@
     "empathy_fatigue": 0.0
   },
   "body": {
-    "wellness": 0.8,
-    "conditions": [],
+    "wellness": 0.6,
+    "conditions": [
+      "sore throat"
+    ],
     "body_image": 0.6,
     "illness": "",
     "illness_severity": 0.0,
     "injury": "",
     "injury_severity": 0.0,
     "hormonal_phase": null,
-    "comfort": 0.91,
-    "stiffness": 0.0,
+    "comfort": 0.9,
+    "stiffness": 0.03,
     "outfit": "",
     "hair": "styled",
     "put_togetherness": 0.69,
@@ -217,33 +240,33 @@
     "focus_quality": 0.76,
     "flow_minutes": 0,
     "active_ruminations": 0,
-    "current_thought": "Something feels different out today",
+    "current_thought": "This is kinda nice honestly",
     "last_dream": null,
     "opinions_count": 0,
     "intrusive_themes": []
   },
   "shadow": {
-    "unease": 0.235,
-    "felt_safety": 0.665,
-    "doubt": 0.229,
-    "temptation": 0.108,
+    "unease": 0.29,
+    "felt_safety": 0.584,
+    "doubt": 0.274,
+    "temptation": 0.116,
     "inhibition": 0.7,
-    "attention_seeking": 0.215,
+    "attention_seeking": 0.238,
     "transgression_pressure": 0.0,
     "intrusive_theme": "",
     "intrusive_winning": false,
     "concealment_load": 0.0,
-    "masking": 0.187,
+    "masking": 0.177,
     "secrets_count": 0,
     "last_lie": "",
     "guilt": 0.0,
-    "shame": 0.063,
+    "shame": 0.019,
     "remorse": 0.0,
     "urge_to_confess": 0.0,
     "coping_style": "healthy",
     "maladaptive_coping_active": false,
-    "power_stance": 0.002,
-    "autonomy": 0.507,
+    "power_stance": 0.004,
+    "autonomy": 0.514,
     "superiority": 0.1,
     "rebelliousness": 0.3,
     "deceptiveness": 0.15,
@@ -261,9 +284,11 @@
     "pending_events": 0
   },
   "mental_health": {
-    "score": 0.825,
+    "score": 0.822,
     "label": "thriving",
-    "drivers": []
+    "drivers": [
+      "unwell"
+    ]
   },
   "drive": {
     "curiosities": [],
@@ -277,81 +302,95 @@
     "neighborhood_places": 0,
     "ambient": {
       "sounds": [
-        "soft hum of the fridge",
-        "clock ticking"
+        "espresso machine",
+        "quiet chatter",
+        "dishes clinking"
       ],
       "smells": [
-        "clean laundry",
-        "something cooking"
+        "fresh coffee",
+        "pastries"
       ],
       "light": "golden morning light"
     }
   },
   "memory_time": {
-    "time_perception": 0.5,
-    "seasonal_feeling": "",
+    "time_perception": 0.6,
+    "seasonal_feeling": "autumn melancholy",
     "years_experienced": 0,
     "nostalgia_log_count": 0,
-    "life_chapters_count": 0,
-    "current_chapter": null,
+    "life_chapters_count": 1,
+    "current_chapter": "the heavy weeks",
     "rhythms": [],
-    "anticipations": []
+    "anticipations": [
+      "Create something, anything",
+      "Create something, anything",
+      "Create something, anything"
+    ]
   },
   "expression": {
-    "interaction_count": 0,
+    "interaction_count": 7,
     "relationship_stage": "early",
     "is_online": false,
-    "hours_since_last_message": 0.0,
+    "hours_since_last_message": 0.4,
     "late_night": false,
     "formality": 0.7,
-    "vulnerability": 0.2,
-    "avg_response_time_sec": 0.0
+    "vulnerability": 0.21,
+    "avg_response_time_sec": 19.6
   },
   "continuity": {
     "anniversaries_count": 0,
-    "growth_snapshots_count": 0,
-    "life_chapters_count": 0,
-    "current_chapter": null,
+    "growth_snapshots_count": 1,
+    "life_chapters_count": 1,
+    "current_chapter": "the heavy weeks",
     "milestones": [],
     "milestones_detected": [],
-    "last_daily_tick": "2026-11-08T08:17:56.498598",
-    "last_weekly_tick": null,
-    "last_monthly_tick": null
+    "last_daily_tick": "2026-11-08T08:36:23.833228",
+    "last_weekly_tick": "2026-11-08T08:36:23.833228",
+    "last_monthly_tick": "2026-11-08T08:36:23.833228"
   },
   "character_evolution": {
     "original_baseline": {},
     "current_baseline": {},
     "drift": {},
     "drift_history_count": 0,
-    "tracked_activities": 0,
-    "last_evolution": null
+    "tracked_activities": 2,
+    "last_evolution": "2026-11-08T08:36:23.833228"
   },
   "chaos": {
-    "events_today": 0,
-    "total_events": 0,
-    "last_event": null
+    "events_today": 1,
+    "total_events": 1,
+    "last_event": {
+      "text": "the wifi went out briefly",
+      "type": "restored"
+    }
   },
   "life_events": {
-    "total_events": 0,
-    "unshared_count": 0,
-    "recent_events": []
+    "total_events": 1,
+    "unshared_count": 1,
+    "recent_events": [
+      {
+        "title": "Got a little emotional about reading",
+        "type": "emotional",
+        "shared": false
+      }
+    ]
   },
   "pipeline": {
     "enabled": false
   },
   "transit": null,
   "needs": {
-    "hunger": 0.0,
+    "hunger": 0.01,
     "hunger_label": "satisfied",
     "meals_today": 0,
-    "nutrition": 0.6,
+    "nutrition": 0.59,
     "showered_today": false,
     "morning_routine_done": false
   },
   "room": {
     "candle_lit": false,
     "music_playing": false,
-    "tidiness": 0.7,
+    "tidiness": 0.69,
     "comfort": 0.63,
     "home_type": "apartment"
   },

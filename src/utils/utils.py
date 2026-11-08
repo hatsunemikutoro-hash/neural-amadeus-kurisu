@@ -1,10 +1,6 @@
-def calc_budget(length: int) -> int:
-    if length <= 3:
-        return 0
-    elif length <= 15:
-        return 100
-    elif length <= 50:
-        return 300
-    else:
-        return 800
+import json
 
+def save_status_to_log(amadeus):
+    with open('./src/tests/log/log.txt', 'w', encoding='utf-8') as file:
+        file.write(json.dumps(amadeus.get_status(), indent=2, ensure_ascii=False, default=str))
+        file.write("\n")
