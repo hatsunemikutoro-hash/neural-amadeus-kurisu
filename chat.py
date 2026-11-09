@@ -1,6 +1,6 @@
 import asyncio
 
-from src.core.generator import generate
+from src.core.generator import reply, initiate
 from src.core.server_manager import ServerManager, wait_server
 from src.utils.utils import save_status_to_log
 from src.core.emotionAnalyzer import apply_emotion
@@ -25,7 +25,7 @@ async def voice_loop(amadeus, world):
             amadeus.on_user_message(userMsg)
             apply_emotion(userMsg, amadeus.affect)
             #save_status_to_log(amadeus)
-            await generate(userMsg, amadeus)
+            await reply(userMsg, amadeus)
     finally:
         server.stop()
 
