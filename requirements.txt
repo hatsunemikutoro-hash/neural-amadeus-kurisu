@@ -1,0 +1,11 @@
+# Dependências principais
+openai
+httpx
+rich
+pysentimiento
+aura-life
+
+# Dependências dos scripts de teste de voz
+piper-tts
+sherpa-onnx
+numpy
